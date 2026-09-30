@@ -2,6 +2,7 @@
 # define APP_HPP
 
 # include <string>
+# include "ShaderProgram.hpp"
 
 struct GLFWwindow;
 
@@ -16,6 +17,7 @@ class App {
     private:
         std::string _modelPath;
         GLFWwindow *_window;
+        ShaderProgram _shader;
 };
 
 #endif

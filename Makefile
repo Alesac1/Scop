@@ -8,7 +8,9 @@ SRC_DIR     := src
 OBJ_DIR     := obj
 
 SRCS        := $(SRC_DIR)/main.cpp \
-               $(SRC_DIR)/App.cpp
+               $(SRC_DIR)/App.cpp  \
+			   $(SRC_DIR)/GLLoader.cpp \
+			   $(SRC_DIR)/ShaderProgram.cpp
 
 OBJS        := $(SRCS:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
 
